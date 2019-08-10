@@ -1,0 +1,11 @@
+<p>employeelist works!</p>
+<button class="btn btn-primary">click</button> 
+
+<table class="table table-hover">
+    <tr *ngFor="let emp of employees">
+        <td>{{emp.eId}}</td>
+        <td>{{emp.name}}</td>
+        <td>{{emp.salary}}</td>
+        <td>{{emp.gender}}</td>
+    </tr>
+</table>
